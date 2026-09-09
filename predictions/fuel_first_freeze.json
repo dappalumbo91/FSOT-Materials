@@ -1,5 +1,7 @@
 {
   "pin": "D1D38A",
+  "authority_sha256": "D1D38A185487B452E470AC68ECE2EB45AEB1CA9CE25FC9BF9564C19633FFBE70",
+  "generated_at": "2026-09-09T21:49:06.148790+00:00",
   "generated_from": "FSOT-2.1-Lean data/fuel_lab_live_panel_benchmark.json",
   "hub_pred": "PRED-034",
   "object": "named_fuel_property_vector",
