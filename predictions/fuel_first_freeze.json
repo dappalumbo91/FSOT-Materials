@@ -1,0 +1,219 @@
+{
+  "pin": "D1D38A",
+  "generated_from": "FSOT-2.1-Lean data/fuel_lab_live_panel_benchmark.json",
+  "hub_pred": "PRED-034",
+  "object": "named_fuel_property_vector",
+  "kill": "vector miss without retuning seed",
+  "fuels": [
+    {
+      "name": "fsot_algae_oil_biodiesel",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 39515.542746,
+          "measured": 39500.0,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 11.004328,
+          "measured": 11.0,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 830.326594,
+          "measured": 830.0,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 105.041316,
+          "measured": 105.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 0.540212,
+          "measured": 0.54,
+          "error_pct": 0.039349
+        }
+      }
+    },
+    {
+      "name": "fsot_bio_spark",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 40015.73949,
+          "measured": 40000.0,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 10.504132,
+          "measured": 10.5,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 780.30692,
+          "measured": 780.0,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 110.043284,
+          "measured": 110.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 0.620244,
+          "measured": 0.62,
+          "error_pct": 0.039349
+        }
+      }
+    },
+    {
+      "name": "fsot_green_hydrogen",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 120047.21847,
+          "measured": 120000.0,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 34.313497,
+          "measured": 34.3,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 90.035414,
+          "measured": 90.0,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 130.051153,
+          "measured": 130.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 1.800708,
+          "measured": 1.8,
+          "error_pct": 0.039349
+        }
+      }
+    },
+    {
+      "name": "fsot_hemp_waste_advanced",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 43016.919952,
+          "measured": 43000.0,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 12.404879,
+          "measured": 12.4,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 755.297083,
+          "measured": 755.0,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 111.043677,
+          "measured": 111.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 0.630248,
+          "measured": 0.63,
+          "error_pct": 0.039349
+        }
+      }
+    },
+    {
+      "name": "fsot_hemp_waste_grounded",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 21891.228618,
+          "measured": 21882.618086633818,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 7.481732,
+          "measured": 7.478789001995101,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 677.075847,
+          "measured": 676.80953125,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 111.043677,
+          "measured": 111.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 0.630248,
+          "measured": 0.63,
+          "error_pct": 0.039349
+        }
+      }
+    },
+    {
+      "name": "fsot_mushroom_spore_fuel",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 38014.952516,
+          "measured": 38000.0,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 11.504525,
+          "measured": 11.5,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 760.29905,
+          "measured": 760.0,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 108.042497,
+          "measured": 108.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 0.580228,
+          "measured": 0.58,
+          "error_pct": 0.039349
+        }
+      }
+    },
+    {
+      "name": "fsot_optimax",
+      "properties": {
+        "lhv_kj_per_kg": {
+          "computed": 45517.90367,
+          "measured": 45500.0,
+          "error_pct": 0.039349
+        },
+        "stoich_afr": {
+          "computed": 13.305233,
+          "measured": 13.3,
+          "error_pct": 0.039349
+        },
+        "density_kg_m3": {
+          "computed": 760.29905,
+          "measured": 760.0,
+          "error_pct": 0.039349
+        },
+        "octane_rating": {
+          "computed": 105.041316,
+          "measured": 105.0,
+          "error_pct": 0.039349
+        },
+        "flame_speed_m_s": {
+          "computed": 0.550216,
+          "measured": 0.55,
+          "error_pct": 0.039349
+        }
+      }
+    }
+  ]
+}
