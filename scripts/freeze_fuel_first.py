@@ -8,11 +8,13 @@ Kill: changing centrals; stuffing gasoline as a designed fuel.
 from __future__ import annotations
 
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-HUB = Path(r"C:\Users\damia\Desktop\FSOT-2.1-Lean")
+# FSOT-2.1-Lean checkout: $FSOT_2_1_LEAN_ROOT, else a sibling clone next to this repo
+HUB = Path(os.environ.get("FSOT_2_1_LEAN_ROOT", "").strip() or (ROOT.parent / "FSOT-2.1-Lean"))
 PIN_JSON = ROOT / "vendor" / "fsot_compute_AUTHORITY_PIN.json"
 OUT = ROOT / "predictions" / "fuel_first_freeze.json"
 
