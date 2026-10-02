@@ -1,8 +1,44 @@
 {
   "pin": "D1D38A",
+  "pin_scope": "Materials local authority pin (vendor/fsot_compute_AUTHORITY_PIN.json); NOT the compute that produced these values",
   "authority_sha256": "D1D38A185487B452E470AC68ECE2EB45AEB1CA9CE25FC9BF9564C19633FFBE70",
-  "generated_at": "2026-09-09T21:49:06.148790+00:00",
+  "pin_note": "Materials' own authority pin stays D1D38A pending Damian's pin finalization. The values below were computed by FSOT-2.1-Lean under the Lean compute pin recorded in provenance.lean_compute_pin (see Lean docs/PIN_LINEAGE.md).",
+  "generated_at": "2026-10-02T01:52:17.426389+00:00",
   "generated_from": "FSOT-2.1-Lean data/fuel_lab_live_panel_benchmark.json",
+  "provenance": {
+    "lean_repo": "https://github.com/dappalumbo91/FSOT-2.1-Lean",
+    "lean_commit": "0ac5a5b93dccdb5abfebcf1421a3a3f9608c6066",
+    "lean_compute_pin": {
+      "pin_prefix": "AEB2AD",
+      "authority_sha256": "AEB2ADAD6E80F487772C5DF90A2E3DDA71624AB831A6A83B94AB471AC9AAC170",
+      "compute_file_sha256": "AEB2ADAD6E80F487772C5DF90A2E3DDA71624AB831A6A83B94AB471AC9AAC170",
+      "compute_matches_pin": true,
+      "pin_file": "vendor/fsot_compute_AUTHORITY_PIN.json",
+      "lineage_doc": "docs/PIN_LINEAGE.md",
+      "decimal_knob_pin": "D1D38A"
+    },
+    "panel_file": "data/fuel_lab_live_panel_benchmark.json",
+    "panel_last_commit": "ac1ef731241bccb4ce125c59c12d0f0e239ebd5d",
+    "panel_values_last_changed_commit": "2c0403a2bee12be209ae3578d629b0cd90d71557",
+    "panel_generated_at": "2026-09-29T20:53:02.420830+00:00",
+    "formula": "computed = measured * (1 + |S|*f)",
+    "S_thermo": 0.9363875640629747,
+    "f": 0.0008082937414140405,
+    "f_is_ALPHA": true,
+    "ledger_b": {
+      "formula": "computed = measured * (1 + |S|*f)",
+      "f_source": "Lean scripts/fsot_api_predict_lib.py domain_modulation_factor -> fsot_compute.ALPHA",
+      "S_source": "Lean scripts/fsot_api_predict_lib.py domain_scalar -> fsot_canonical_adapter",
+      "ALPHA": 0.0008082937414140405,
+      "by_domain": {
+        "Thermodynamics": {
+          "S": 0.9363875640629747,
+          "f": 0.0008082937414140405
+        }
+      },
+      "max_rel_reproduction_residual": 5.311998374090831e-07
+    }
+  },
   "hub_pred": "PRED-034",
   "object": "named_fuel_property_vector",
   "kill": "vector miss without retuning seed",
@@ -11,29 +47,29 @@
       "name": "fsot_algae_oil_biodiesel",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 39515.542746,
+          "computed": 39529.89661,
           "measured": 39500.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 11.004328,
+          "computed": 11.008326,
           "measured": 11.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 830.326594,
+          "computed": 830.628207,
           "measured": 830.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 105.041316,
+          "computed": 105.079472,
           "measured": 105.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 0.540212,
+          "computed": 0.540409,
           "measured": 0.54,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     },
@@ -41,29 +77,29 @@
       "name": "fsot_bio_spark",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 40015.73949,
+          "computed": 40030.275048,
           "measured": 40000.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 10.504132,
+          "computed": 10.507947,
           "measured": 10.5,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 780.30692,
+          "computed": 780.590363,
           "measured": 780.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 110.043284,
+          "computed": 110.083256,
           "measured": 110.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 0.620244,
+          "computed": 0.620469,
           "measured": 0.62,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     },
@@ -71,29 +107,29 @@
       "name": "fsot_green_hydrogen",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 120047.21847,
+          "computed": 120090.825145,
           "measured": 120000.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 34.313497,
+          "computed": 34.325961,
           "measured": 34.3,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 90.035414,
+          "computed": 90.068119,
           "measured": 90.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 130.051153,
+          "computed": 130.098394,
           "measured": 130.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 1.800708,
+          "computed": 1.801362,
           "measured": 1.8,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     },
@@ -101,29 +137,29 @@
       "name": "fsot_hemp_waste_advanced",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 43016.919952,
+          "computed": 43032.545677,
           "measured": 43000.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 12.404879,
+          "computed": 12.409385,
           "measured": 12.4,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 755.297083,
+          "computed": 755.571442,
           "measured": 755.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 111.043677,
+          "computed": 111.084013,
           "measured": 111.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 0.630248,
+          "computed": 0.630477,
           "measured": 0.63,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     },
@@ -131,29 +167,29 @@
       "name": "fsot_hemp_waste_grounded",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 21891.228618,
+          "computed": 21899.18052,
           "measured": 21882.618086633818,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 7.481732,
+          "computed": 7.48445,
           "measured": 7.478789001995101,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 677.075847,
+          "computed": 677.321792,
           "measured": 676.80953125,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 111.043677,
+          "computed": 111.084013,
           "measured": 111.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 0.630248,
+          "computed": 0.630477,
           "measured": 0.63,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     },
@@ -161,29 +197,29 @@
       "name": "fsot_mushroom_spore_fuel",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 38014.952516,
+          "computed": 38028.761296,
           "measured": 38000.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 11.504525,
+          "computed": 11.508704,
           "measured": 11.5,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 760.29905,
+          "computed": 760.575226,
           "measured": 760.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 108.042497,
+          "computed": 108.081743,
           "measured": 108.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 0.580228,
+          "computed": 0.580439,
           "measured": 0.58,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     },
@@ -191,29 +227,29 @@
       "name": "fsot_optimax",
       "properties": {
         "lhv_kj_per_kg": {
-          "computed": 45517.90367,
+          "computed": 45534.437867,
           "measured": 45500.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "stoich_afr": {
-          "computed": 13.305233,
+          "computed": 13.310066,
           "measured": 13.3,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "density_kg_m3": {
-          "computed": 760.29905,
+          "computed": 760.575226,
           "measured": 760.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "octane_rating": {
-          "computed": 105.041316,
+          "computed": 105.079472,
           "measured": 105.0,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         },
         "flame_speed_m_s": {
-          "computed": 0.550216,
+          "computed": 0.550416,
           "measured": 0.55,
-          "error_pct": 0.039349
+          "error_pct": 0.075688
         }
       }
     }
