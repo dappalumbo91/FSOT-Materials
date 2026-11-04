@@ -1,5 +1,7 @@
 # FSOT-Materials
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 **Forward design lab** for fuels and synthetic lattices under Fluid Space-Time Omni Theory (FSOT).  
 Zero free parameters. Pin **D1D38A**. Not a residual-catalog headline.
 
